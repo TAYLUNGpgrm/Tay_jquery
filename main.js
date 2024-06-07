@@ -21,4 +21,10 @@ $(document).ready(function() {
     }
 });
 
+$(document).ready(function(){
+    $("#task-list").click(function(){
+        $(this).toggleClass("concluido");
+    });
+});
+
 alert('Hi, esta é a lista de tarefas, vamos lá! Digite o nome da sua tarefa:');
