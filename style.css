@@ -32,3 +32,11 @@ input {
     border: none;
     background-color:rgb(147, 255, 255);
 }
+
+li {
+    cursor: pointer;
+}
+
+.concluido {
+    text-decoration: line-through;
+}
